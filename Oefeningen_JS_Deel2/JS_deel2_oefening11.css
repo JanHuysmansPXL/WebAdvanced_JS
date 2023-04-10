@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lato, Arial, sans-serif;
+}
+
+/* STYLE TYPES */
+
+.symbool {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.codeblock {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #0d6efd;
+}
+
+.resultaat {
+    color: #ff4141;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+/* TABLE */
+
+.table {
+    width: 900px;
+    margin: 2rem auto;
+}
+
+table, tr, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: .5rem;
+}
+
+.table__head {
+    font-weight: 700;
+    background-color: rgb(225, 245, 255);
+}
