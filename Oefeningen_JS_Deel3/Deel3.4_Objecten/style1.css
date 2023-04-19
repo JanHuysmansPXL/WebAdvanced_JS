@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato, Arial, sans-serif;
+}
+
+table {
+    margin: 1rem auto;
+    width: 500px;
+}
+
+table, th, td {
+    border: 1px solid #7a7a7a;
+    border-collapse: collapse;
+    padding: .5rem;
+}
+
+table th {
+    background-color: #ffdd32;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+table td {
+    width: 50%;
+}
+
+table td:nth-of-type(2) {
+    color: #032d60;
+    font-weight: 600;
+    font-style: italic;
+}
