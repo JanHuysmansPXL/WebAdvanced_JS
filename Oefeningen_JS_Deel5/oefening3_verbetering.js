@@ -5,8 +5,8 @@ document.getElementsByTagName('button')[1].addEventListener("click", tekstWissen
 
 function tekstTonen() {
     teller++;
-//SPAN AANMAKEN MET TEKST UIT INPUTVELD EN OP WEBPAGINA PLAATSEN MET ID.
 
+//SPAN AANMAKEN MET TEKST UIT INPUTVELD EN OP WEBPAGINA PLAATSEN MET ID.
     let span = document.createElement('span');
     let spanTekst = document.createTextNode(document.getElementsByTagName('input')[0].value + " ");
     span.appendChild(spanTekst);
