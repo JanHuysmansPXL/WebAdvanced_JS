@@ -1,0 +1,9 @@
+.demo {
+    font-weight: 400;
+    font-style: italic;
+}
+
+p.demo {
+    color: #f00;
+    font-size: 16px;
+}
