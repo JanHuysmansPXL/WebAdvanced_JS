@@ -1,20 +1,12 @@
-// Schrijf een functie ‘vermenigvuldig()’.
+// Schrijf een functie ‘verschil()’.
 // De output van de functie bevat
-// de vermenigvuldiging van twee getallen
-// die je zelf mag kiezen.
-// De output wordt getoond op de webpagina.
+// het verschil tussen een getal dat de bezoeker mag ingeven en het getal 100.
+// De output wordt getoond in de console.
 
-let x;
-let y;
+let inputBezoeker = parseInt(prompt("Geef een getal in:"));
 
-
-function vermenigvuldig(x, y) {
-    x = parseInt(prompt("Geef een getal in:"));
-    y = parseInt(prompt("Geef nog een getal in:"));
-    return x * y;
+function verschil(input) {
+    return input - 100;
 }
 
-resultaat = vermenigvuldig(x,y);
-console.log(resultaat);
-
-document.getElementById("respons").innerHTML = "Het product van de 2 getallen is: " + resultaat;
+document.getElementById("respons").innerHTML = "Het verschil met 100 is: " + verschil(inputBezoeker);
