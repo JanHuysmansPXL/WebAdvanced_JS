@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Lato, Arial, sans-serif;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border: 2px solid #EFEFEF;
+    padding: .5rem;
+}
+
+tr, td {
+    width: 100%;
+}
+
+table td:first-of-type {
+    font-weight: 600;
+}
+
+thead {
+    background-color: #343434;
+    color: #EFEFEF;
+}
