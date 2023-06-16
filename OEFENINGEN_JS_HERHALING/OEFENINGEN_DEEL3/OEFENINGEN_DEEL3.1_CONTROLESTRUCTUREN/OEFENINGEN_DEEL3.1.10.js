@@ -7,5 +7,6 @@ for (let teller = 0; teller <= aantalLijnen; teller++) {
     }
     uitkomst = uitkomst + "<br>";
 }
-document.getElementById("uitkomst").innerHTML = uitkomst;
+
+document.getElementById("respons").innerHTML = uitkomst;
 console.log(uitkomst);
