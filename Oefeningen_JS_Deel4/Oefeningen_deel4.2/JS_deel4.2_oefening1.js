@@ -1,6 +1,6 @@
 let paragrafenRandomTekst = document.getElementsByTagName('randomtekst');
 let afbeeldingen = document.getElementsByTagName('img');
-let specialeTekst = document.getElementsByClassName('specieletekst');
+let specialeTekst = document.getElementsByClassName('specialetekst');
 let vijfdeParagraaf = document.getElementsByTagName('p')[4];
 let a = document.getElementsByClassName("randomtekst")[2];
 
