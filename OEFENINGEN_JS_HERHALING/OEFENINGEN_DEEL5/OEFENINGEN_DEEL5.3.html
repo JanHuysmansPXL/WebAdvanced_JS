@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OEFENINGEN WEB ADVANCED - EVENT-LISTENERS - DEEL 5.3</title>
+    <link rel="stylesheet" href="../../bootstrap.css">
+    <script defer src="OEFENINGEN_DEEL5.3b.js"></script>
+</head>
+<body>
+
+<!--
+Maak een webpagina -- (met opmaak via Bootstrap!)
+-- Met:
+-- OK - een titel
+-- OK -  een leeg tekstvak
+-- OK -  een knop ‘Tonen’
+-- OK -  een knop ‘Wissen’
+-- OK -  een lege paragraaf.
+-->
+
+<div class="container-xl">
+    <div class="row justify-content-center mx-auto">
+        <div class="col-10">
+            <h2 class="titel text-center mt-4">Dit is de titel van de webpagina.</h2></div>
+        <div class="col-10 mt-4">
+            <label for="tekstvak">Geef hier je tekst in:</label>
+            <br>
+            <input class="mt-2" type="text" id="tekstvak" name="tekstvak" placeholder="tekstvak">
+        </div>
+        <div id="box" class="col-10 mt-4">
+            <button class="btn btn-small rounded btn-dark" id="knopTonen">Tonen</button>
+            <button class="btn btn-small rounded btn-outline-danger" id="knopWissen">Wissen</button>
+            <p class="mt-2" id="paragraaf"></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

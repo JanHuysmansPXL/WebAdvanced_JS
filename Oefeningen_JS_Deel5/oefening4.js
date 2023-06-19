@@ -7,7 +7,7 @@ function tekstGroter() {
         document.getElementsByTagName("h1")[teller].style.fontSize = "48px";
     }
     let aantalParagrafen = document.getElementsByTagName("p").length;
-    for (let teller = 0; teller < aantalTitels; teller++) {
+    for (let teller = 0; teller < aantalParagrafen; teller++) {
         document.getElementsByTagName("h1")[teller].style.fontSize = "24px";
     }
 }
@@ -18,7 +18,7 @@ function tekstKleiner() {
         document.getElementsByTagName("h1")[teller].style.fontSize = "22px";
     }
     let aantalParagrafen = document.getElementsByTagName("p").length;
-    for (let teller = 0; teller < aantalTitels; teller++) {
+    for (let teller = 0; teller < aantalParagrafen; teller++) {
         document.getElementsByTagName("h1")[teller].style.fontSize = "14px";
     }
 }
